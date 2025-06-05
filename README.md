@@ -6,6 +6,7 @@ A sophisticated content-based movie recommendation system that leverages the TMD
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
+- [TMDB API Setup](#-tmdb-api-setup)
 - [Project Structure](#-project-structure)
 - [Usage](#-usage)
 - [How It Works](#-how-it-works)
@@ -26,6 +27,7 @@ A sophisticated content-based movie recommendation system that leverages the TMD
 - Python 3.8+
 - pip (Python package installer)
 - Git
+- TMDB API Key
 
 ## 🚀 Installation
 
@@ -49,6 +51,40 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## 🔑 TMDB API Setup
+
+1. **Get Your API Key**:
+   - Go to [TMDB Website](https://www.themoviedb.org/)
+   - Create an account or log in
+   - Go to your profile settings
+   - Click on "API" in the left sidebar
+   - Request an API key (you'll need to fill out a form)
+   - Choose "Developer" option
+   - Accept the terms of use
+   - Fill in the required information
+   - You'll receive your API key (v3 auth)
+
+2. **Set Up Environment Variables**:
+   - Create a `.env` file in the project root:
+   ```bash
+   # On Windows
+   copy .env.example .env
+   # On Unix or MacOS
+   cp .env.example .env
+   ```
+   - Open the `.env` file and add your API key:
+   ```
+   TMDB_API_KEY=your_api_key_here
+   TMDB_API_BASE_URL=https://api.themoviedb.org/3
+   ```
+   - Replace `your_api_key_here` with your actual TMDB API key
+
+3. **Verify Setup**:
+   - The application will automatically use the API key from the `.env` file
+   - You can test the API key by running the application
+
+> ⚠️ **Important**: Never commit your `.env` file or share your API key publicly. The `.env` file is already in `.gitignore` to prevent accidental commits.
+
 ## 📁 Project Structure
 ```
 movie-recommender-system/
@@ -57,6 +93,7 @@ movie-recommender-system/
 │   └── ...
 ├── movie-recommender.ipynb # Jupyter notebook for development
 ├── requirements.txt        # Project dependencies
+├── .env.example           # Environment variables template
 ├── .gitignore             # Git ignore file
 └── README.md              # Project documentation
 ```
@@ -123,5 +160,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- TMDB for providing the dataset
+- TMDB for providing the dataset and API
 - All contributors who have helped shape this project
