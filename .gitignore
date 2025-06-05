@@ -14,10 +14,10 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 
 # Model files
-*.pkl
+similarity.pkl
+movie_list.pkl
 
 # IDE specific files
 .vscode/
@@ -30,4 +30,7 @@ ENV/
 Thumbs.db
 
 # Logs
-*.log 
+*.log
+
+# Large data files
+*.csv 
