@@ -124,7 +124,7 @@ movie-recommender-system/
 python mrs/app.py
 ```
 
-2. Access the web interface at `http://localhost:5000`
+2. Access the web interface at a specified localhost URL.
 
 3. Enter a movie title to get personalized recommendations
 
@@ -161,23 +161,10 @@ Parameters:
 Returns:
 - List of recommended movies with similarity scores
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
 
-- **Adhiya** - *Initial work* - [azrael-hash](https://github.com/azrael-hash)
 
-## 🙏 Acknowledgments
 
-- TMDB for providing the dataset and API
-- All contributors who have helped shape this project
