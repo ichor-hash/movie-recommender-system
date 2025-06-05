@@ -4,6 +4,7 @@ A sophisticated content-based movie recommendation system that leverages the TMD
 
 ## 📋 Table of Contents
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
 - [TMDB API Setup](#-tmdb-api-setup)
@@ -22,6 +23,24 @@ A sophisticated content-based movie recommendation system that leverages the TMD
 - User-friendly interface
 - Scalable architecture
 - TMDB dataset integration
+
+## 📸 Screenshots
+
+### Main Interface
+![Main Interface](docs/main_interface.png)
+*The main interface of the Movie Recommender System*
+
+### Movie Search
+![Movie Search](docs/search_5000.png)
+*Searching through the TMDB 5000 movies dataset*
+
+### Movie Fetching
+![Movie Fetching](docs/fetch_movies.png)
+*Fetching and processing movie data from TMDB*
+
+### Recommendation Results
+![Recommendation Results](docs/results.png)
+*Example of movie recommendations and results*
 
 ## 🔧 Prerequisites
 - Python 3.8+
