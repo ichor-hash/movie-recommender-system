@@ -12,7 +12,6 @@ A sophisticated content-based movie recommendation system that leverages the TMD
 - [Usage](#-usage)
 - [How It Works](#-how-it-works)
 - [API Reference](#-api-reference)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## ✨ Features
@@ -112,7 +111,6 @@ movie-recommender-system/
 │   └── ...
 ├── movie-recommender.ipynb # Jupyter notebook for development
 ├── requirements.txt        # Project dependencies
-├── .env.example           # Environment variables template
 ├── .gitignore             # Git ignore file
 └── README.md              # Project documentation
 ```
