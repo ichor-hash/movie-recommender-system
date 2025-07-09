@@ -1,6 +1,6 @@
 # Movie Recommender System 🎬
 
-A sophisticated content-based movie recommendation system that leverages the TMDB dataset to provide personalized movie suggestions based on genres, cast, and plot analysis.
+A very simple content-based movie recommendation system that leverages the TMDB dataset to provide personalized movie suggestions based on genres, cast, and plot analysis.
 
 ## 📋 Table of Contents
 - [Features](#-features)
